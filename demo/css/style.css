@@ -1,0 +1,57 @@
+body {
+    background-color: #fcf8ec; 
+    color: #456268;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.first {
+    margin: 10px;
+    text-align: left;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    color: #456268; 
+    
+}
+.intro {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+h3 { 
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.movies {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.list1 {
+    margin: 10px;
+    padding: 10px;
+    text-align: left; 
+    
+
+}
+
+    
+
+
+.list2 {
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+
+}
+.songs {
+    margin: 10px;
+    padding: 10px;
+    text-align: center; 
+}
