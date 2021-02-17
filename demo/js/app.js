@@ -1,10 +1,11 @@
 'use strict';
-let counter = 0; 
+
+let counter = 0;
 let userName = prompt('What is your name?');
 while (userName == null || userName == '') {
     userName = prompt("please enter your name");
 };
-alert('We are glad to have you  ' + userName +  ' 😀 ');
+alert ('We are glad to have you  ' + userName +  ' 😀 ');
 
 let courseCompletion = prompt('Do you think i will finish this course?');
 // console.log(courseCompletion); 
