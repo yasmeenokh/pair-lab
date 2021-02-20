@@ -2,9 +2,9 @@
 
 
 let counter = 0;
+let userName = prompt('What is your name?');
 function yourName()
 {
-  let userName = prompt('What is your name?');
   while (userName === null || userName === '') {
     userName = prompt('please enter your name');
   }
@@ -24,7 +24,7 @@ const question1 = function()
   courseCompletion = courseCompletion.toLowerCase();
   while (courseCompletion !== 'yes' && courseCompletion !== 'y' && courseCompletion !=='no' && courseCompletion !=='n' ) {
     courseCompletion = prompt('Do you think i will finish this course?');
-    return courseCompletion;
+    
   }
 
   if (courseCompletion === 'yes' || courseCompletion === 'y') {
@@ -54,6 +54,7 @@ const question2 =function()
     alert('i am glad you had that right');
     counter++;
   }
+  return courseCompletion;
   };
 question2();
 
@@ -63,7 +64,7 @@ const question3 = function()
   // console.log(firstImp);
   while (firstImp.toLowerCase() !== 'yes' && firstImp.toLowerCase() !== 'y' && firstImp.toLowerCase() !=='no' && firstImp.toLowerCase() !=='n' ) {
     firstImp = prompt('Did i leave a good first impression?');
-    return firstImp;
+    
   }
   if (firstImp.toLowerCase() === 'yes' || firstImp.toLowerCase() === 'y') {
     alert('Glad to hear that, it was mutual 🙈');
@@ -71,6 +72,7 @@ const question3 = function()
   }
   if (firstImp.toLowerCase() === 'no' || firstImp.toLowerCase() === 'n') {
     alert('sorry to hear that, where did i go wrong 💔?');
+    return firstImp;
   }
   };
 question3();
@@ -82,7 +84,7 @@ const question4 = function()
 
   while (myPhobia.toLowerCase() !== 'yes' && myPhobia.toLowerCase() !== 'y' && myPhobia.toLowerCase() !=='no' && myPhobia.toLowerCase() !=='n' ) {
     myPhobia = prompt('To your knowledge do i have any phobias?');
-    return myPhobia;
+    
   }
   if (myPhobia.toLowerCase() === 'yes' || myPhobia.toLowerCase() === 'y') {
     alert('Intersting 🙀, how did you know?');
@@ -90,6 +92,7 @@ const question4 = function()
   }
   if (myPhobia.toLowerCase() === 'no' || myPhobia.toLowerCase() === 'n') {
     alert('Unfortunately not true');
+    return myPhobia;
   }
 
   };
@@ -102,9 +105,9 @@ const question5 =function()
 
   while (tryNew.toLowerCase() !== 'yes' && tryNew.toLowerCase() !== 'y' && tryNew.toLowerCase() !=='no' && tryNew.toLowerCase() !=='n' ) {
     tryNew = prompt('Do i like to try new things?');
-    return tryNew;
+    
   }
-
+  
   if (tryNew.toLowerCase() === 'yes' || tryNew.toLowerCase() === 'y') {
     alert('you got that right');
     counter++;
