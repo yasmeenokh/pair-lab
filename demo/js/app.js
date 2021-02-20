@@ -1,6 +1,6 @@
 'use strict';
 
-alert ('We are glad to have you  ' + userName +  ' 😀 ');
+
 let counter = 0;
 function yourName()
 {
@@ -13,6 +13,8 @@ function yourName()
   return userName;
 }
 yourName();
+
+alert ('We are glad to have you  ' + userName +  ' 😀 ');
 
 const question1 = function()
 {
@@ -97,6 +99,7 @@ const question5 =function()
 {
   let tryNew = prompt('Do i like to try new things?');
   // console.log(tryNew);
+
   while (tryNew.toLowerCase() !== 'yes' && tryNew.toLowerCase() !== 'y' && tryNew.toLowerCase() !=='no' && tryNew.toLowerCase() !=='n' ) {
     tryNew = prompt('Do i like to try new things?');
     return tryNew;
