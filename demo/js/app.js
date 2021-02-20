@@ -14,7 +14,6 @@ function yourName()
 }
 yourName();
 
-alert ('We are glad to have you  ' + userName +  ' 😀 ');
 
 const question1 = function()
 {
